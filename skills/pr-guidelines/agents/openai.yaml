@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR Guidelines"
+  short_description: "Guide pull request preparation"
+  default_prompt: "Use $pr-guidelines to prepare or review a pull request."
