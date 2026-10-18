@@ -1,8 +1,0 @@
-#!/bin/bash
-if [ "$1" = "--dev" ]
-then
-   shift
-   npm uninstall --save $* && npm install -E --save-dev $*
-else
-   npm uninstall --save $* && npm install -E --save $*
-fi
